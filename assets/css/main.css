@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'modern_sans_regular';
+  src: url("fonts/lmsans10-regular-webfont.eot");
+  src: url("fonts/lmsans10-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lmsans10-regular-webfont.woff") format("woff"), url("fonts/lmsans10-regular-webfont.ttf") format("truetype"), url("fonts/lmsans10-regular-webfont.svg#latin_modern_sans10_regular") format("svg");
+  font-style: normal; }
+html, * {
+  font-family: 'modern_sans_regular';
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  overflow: hidden; }
+
+#output {
+  width: 250px;
+  height: auto;
+  margin: 60px auto;
+  background: #222;
+  padding-top: 10px; }
+
+#title {
+  width: 100%;
+  clear: both;
+  text-align: center;
+  font-size: 120%;
+  font-family: modern_sans_regular;
+  color: #fefefe;
+  margin-bottom: 10px; }
+
+p, h1 {
+  margin: 0;
+  line-height: 1.2em;
+  font-size: 90%; }
+
+h1 {
+  font-size: 100%; }
+
+#playlist {
+  width: 250px;
+  height: 330px;
+  background: #ccc;
+  overflow: auto;
+  border: 1px solid #555; }
+
+.track {
+  margin: 0;
+  padding: 5px 5px 5px 5px;
+  border-bottom: 1px solid #555;
+  position: relative;
+  background-color: #222;
+  color: #ccc;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none; }
+  .track .duration, .track .tracknumber {
+    width: 15%;
+    bottom: 5px;
+    right: 5px;
+    text-align: right;
+    position: absolute;
+    font-size: 85%; }
+  .track .tracknumber {
+    top: 5px;
+    color: #555; }
+  .track:hover {
+    background-color: #C6527B;
+    color: #fff; }
+  .track.border-top {
+    margin-top: 43px; }
+
+.track.current {
+  background: #0cf;
+  color: #000; }
+
+.track.played {
+  background: #222;
+  color: #555; }
+  .track.played:hover {
+    background-color: #C6527B; }
+
+#controls {
+  text-align: center;
+  height: 25px;
+  position: relative; }
+
+.btn {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin-right: 5px; }
+
+.play, .pause:active {
+  background: url("../img/play_active.png") no-repeat center;
+  background-size: 15px; }
+
+.pause, .play:active {
+  background: url("../img/play.png") no-repeat center;
+  background-size: 15px; }
+
+.stop {
+  background: url("../img/stop.png") no-repeat center;
+  background-size: 15px; }
+  .stop:active {
+    background: url("../img/stop_active.png") no-repeat center;
+    background-size: 20px; }
+
+.next {
+  background: url("../img/next.png") no-repeat center;
+  background-size: 15px; }
+  .next:active {
+    background: url("../img/next_active.png") no-repeat center;
+    background-size: 20px; }
+
+.previous {
+  background: url("../img/previous.png") no-repeat center;
+  background-size: 15px; }
+  .previous:active {
+    background: url("../img/previous_active.png") no-repeat center;
+    background-size: 20px; }
+
+.shuffle {
+  background: url("../img/shuffle.png") no-repeat center;
+  background-size: 20px; }
+  .shuffle.active, .shuffle:active {
+    background: url("../img/shuffle_active.png") no-repeat center;
+    background-size: 20px; }
+
+.loop {
+  background: url("../img/loop.png") no-repeat center;
+  background-size: 20px;
+  margin-right: 0; }
+  .loop.active, .loop:active {
+    background: url("../img/loop_active.png") no-repeat center;
+    background-size: 20px; }
+
+#volume {
+  width: 15px;
+  height: 100%;
+  float: right;
+  right: 5px;
+  position: absolute;
+  top: 40px; }
+  #volume .vslider {
+    height: 60px;
+    margin-bottom: 3px; }
+  #volume .mute {
+    background: url("../img/mute.png") no-repeat center;
+    background-size: 15px;
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 0 !important;
+    margin-bottom: 5px;
+    right: 2px;
+    clear: both;
+    position: relative;
+    z-index: 99; }
+    #volume .mute.active, #volume .mute:active {
+      background: url("../img/mute_active.png") no-repeat center;
+      background-size: 15px; }
+
+#info {
+  width: 250px;
+  height: 115px;
+  position: relative;
+  padding-top: 10px;
+  padding-left: 5px;
+  color: #ccc; }
+  #info * {
+    margin-bottom: 1px;
+    font-size: 80%; }
+  #info .title {
+    font-size: 130%;
+    color: #0cf; }
+  #info .artist {
+    font-size: 100%;
+    margin-bottom: 8px; }
+  #info .album, #info .genre {
+    color: #999; }
+  #info .timePlayed, #info .timeRemaining {
+    position: absolute;
+    bottom: 5px;
+    font-size: 70%; }
+  #info .timePlayed {
+    left: 5px; }
+  #info .timeRemaining {
+    right: 5px; }
+
+button {
+  border-width: 0px; }
+
+button:focus {
+  outline: none; }
+
+/*# sourceMappingURL=main.css.map */

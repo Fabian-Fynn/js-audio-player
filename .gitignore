@@ -1,0 +1,6 @@
+.*
+!/.gitignore
+assets/files
+*.psd
+architecture.pdf
+info.md

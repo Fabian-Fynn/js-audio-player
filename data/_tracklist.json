@@ -1,0 +1,95 @@
+{
+	"tracks": [
+
+		{
+			"url": "assets/files/Sonnentanz.mp3",
+			"title": "Sonnentanz",
+			"artist": "Klangkarussell",
+			"genre": "Electronic Dance",
+			"album": "Sonnentanz EP",
+			"year": "2012",
+			"duration": "06:03"
+		},
+		{
+			"url": "assets/files/Embryo.mp3",
+			"title": "Embryo",
+			"artist": "Black Sabbath",
+			"genre": "Metal",
+			"album": "Master of Reality",
+			"year": "1971",
+			"duration": "00:28"
+		},
+		{
+			"url": "assets/files/I_love_you.mp3",
+			"title": "I Love You",
+			"artist": "Woodkid",
+			"genre": "Indie",
+			"album": "I Love You",
+			"year": "2013",
+			"duration": "03:51"
+		},
+		{
+			"url": "assets/files/Eistee_aus_der_Dose.mp3",
+			"title": "Eistee aus der Dose",
+			"artist": "Klangkarussell",
+			"genre": "Electronic Dance",
+			"album": "Netzwerk",
+			"year": "2014",
+			"duration": "05:38"
+		},
+		{
+			"url": "assets/files/Flower.mp3",
+			"title": "Flower",
+			"artist": "Moby",
+			"genre": "Electronic",
+			"album": "Play - The B Sides",
+			"year": "2004",
+			"duration": "03:27"
+		},
+		{
+			"url": "assets/files/Fortunate_Son.mp3",
+			"title": "Fortunate Son",
+			"artist": "CCR",
+			"genre": "Electronic",
+			"album": "Willy and the Poor Boys",
+			"year": "1969",
+			"duration": "02:31"
+		},
+		{
+			"url": "assets/files/Galant_Egokind_Remix.mp3",
+			"title": "Galant (Egokind Remix)",
+			"artist": "Alle Farben",
+			"genre": "Electronic",
+			"album": "About:Berlin, Vol. 2",
+			"year": "2012",
+			"duration": "06:03"
+		},
+		{
+			"url": "assets/files/She_Moves.mp3",
+			"title": "She moves",
+			"artist": "Alle Farben",
+			"genre": "Electronic",
+			"album": "She Moves EP",
+			"year": "2014",
+			"duration": "03:02"
+		},
+		{
+			"url": "assets/files/If_I_Had_A_Heart.mp3",
+			"title": "If I had a heart",
+			"artist": "Fever Ray",
+			"genre": "Alternative",
+			"album": "Fever Ray",
+			"year": "2009",
+			"duration": "03:52"
+		},
+		{
+			"url": "assets/files/Sail.mp3",
+			"title": "Sail",
+			"artist": "Awolnation",
+			"genre": "Rock",
+			"album": "Megalithic Symphony",
+			"year": "2011",
+			"duration": "04:19"
+		}
+	]
+}
